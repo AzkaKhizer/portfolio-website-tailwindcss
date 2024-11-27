@@ -1,9 +1,6 @@
 // app/contact/page.tsx
 
 "use client";
-
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { useState } from "react";
 
 const Contact = () => {
@@ -28,7 +25,7 @@ const Contact = () => {
 
   return (
     <div>
-      <Navbar />
+      
       <section className="flex flex-col items-center justify-center min-h-screen bg-white text-gray-900 p-4">
         <h1 className="text-4xl font-bold mb-6">Contact Me</h1>
         <p className="text-lg mb-6 leading-relaxed text-center">
@@ -85,7 +82,7 @@ const Contact = () => {
           </button>
         </form>
       </section>
-      <Footer />
+      
     </div>
   );
 };
