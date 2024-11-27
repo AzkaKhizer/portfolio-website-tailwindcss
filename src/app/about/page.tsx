@@ -1,12 +1,10 @@
 "use client"; 
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { Progress } from "@/components/ui/progress"; // Adjust the import path as necessary
 
 const About = () => {
   return (
     <div>
-      <Navbar />
+  
       <section className="flex flex-col items-start justify-start min-h-screen bg-white text-gray-900 p-16">
         <h1 className="text-4xl font-bold mb-6">About Me</h1>
         <p className="text-lg mb-6 leading-relaxed">
@@ -46,7 +44,7 @@ const About = () => {
           I am always excited to learn new technologies and take on new challenges. Feel free to <a href="/contact" className="text-blue-400 hover:text-blue-300">contact me</a> if you’d like to work together or learn more about my work!
         </p>
       </section>
-      <Footer />
+      
     </div>
   );
 };
